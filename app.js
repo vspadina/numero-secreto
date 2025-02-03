@@ -1,7 +1,7 @@
 //APLICAÇÃO ESTÁ RODANDO COM LIVE SERVER PARA ATUALIZAR AUTOMATICAMENTE INDEX SEMPRE QUE SALVAR ALTERAÇÕES NO APP.JS
 alert ('Seja bem-vindo ao jogo do número secreto!'); // Primeira linha codada para mostrar mensagem de alerta no app
 console.log('Primeiro Alerta apresentado corretamente.'); //Mostrar no console que o alerta de boas vindas foi apresentado com sucesso
-let numeroMaximo = 5000;
+let numeroMaximo = 50;
 let numeroSecreto = parseInt(Math.random() * numeroMaximo + 1); // Variável criada para armazenar o número secreto no app, Math.random serve para gerar um número aleatório entre 0 e 1, multiplicado por 100 para gerar um número entre 0 e 100, e somado 1 para que o número gerado seja entre 1 e 100, sem o + 1 o número gerado seria entre 0 e 99.
 console.log('O numero definido para essa rodada é o número '+numeroSecreto); //Irá mostrar o número secreto no console ao inspecionar página da web
 //let chute = prompt ('Escolha um número entre 1 e 30'); //Prompt serve para o usuário digitar um número no app, armazenando o valor na varíavel chute
